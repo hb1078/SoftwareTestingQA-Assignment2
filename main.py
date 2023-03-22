@@ -1,12 +1,12 @@
 
 #gets user input for feet part of height
 def h_feet_input():
-    h_feet = float(input("What is the feet part of your height? (example, if you're 5'10\", put 5\n"))
+    h_feet = float(input("What is the feet part of your height? (example, if you're 5'10\", put 5)\n"))
     return (h_feet)
 
 #gets user input for inches part of height
 def h_inches_input():
-    h_inches = float(input("What is the inches part of your height? (example, if you're 5'10\", put 10\n"))
+    h_inches = float(input("What is the inches part of your height? (example, if you're 5'10\", put 10)\n"))
     return (h_inches)
 
 #gets user input for weight in pounds
