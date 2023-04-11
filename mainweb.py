@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 app = Flask(__name__)
 
-#gets user input for feet part of height
+#gets user input for feet part of height 
 def h_feet_input():
     h_feet = float(request.form['h_feet'])
     return (h_feet)
