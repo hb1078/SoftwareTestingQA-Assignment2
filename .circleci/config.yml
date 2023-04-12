@@ -29,6 +29,7 @@ jobs:
     # Then run your tests!
     # CircleCI will report the results back to your VCS provider.
     steps:
+      - coveralls/upload
       - checkout
       - python/install-packages:
           pkg-manager: pip
