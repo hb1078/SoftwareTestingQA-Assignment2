@@ -30,6 +30,7 @@ jobs:
     # CircleCI will report the results back to your VCS provider.
     steps:
       - checkout
+      - COVERALLS_REPO_TOKEN=VMs2TH59aiqyHPVXxMBRFYGttFJmhuFtB
       
       - python/install-packages:
           pkg-manager: pip
