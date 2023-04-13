@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik:400,700'>
+    <link rel="stylesheet" type ="text/css" href ="{{ url_for('static',filename='style.css') }}">
     <title>BMI Calculator</title>
   </head>
   <body>
-    <h1>BMI Calculator</h1>
+    <h1>BMI Calculator</h1><br><br>
     <form method="post" action="/">
-
+<div>
       <label>Feet:</label>
       <input type="number" id= "h_feet" name="h_feet" required><br>
 
@@ -15,5 +17,5 @@
 
       <label>Weight (lbs):</label>
       <input type="number" id="p_weight" name="p_weight" required><br><br>
-
+</div>
       <button type = "submit">Calculate BMI</button>

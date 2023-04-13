@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik:400,700'>
+    <link rel="stylesheet" type ="text/css" href ="{{ url_for('static',filename='style.css') }}">
     <title>BMI Result</title>
 </head>
 
@@ -8,9 +10,10 @@
     <h1>BMI Result:</h1><br>
     <p>Your BMI is: {{bmi}}</p>
     <p>Your status is: {{status}}</p>
+<br><a href = "javascript:history.back()">Click to go back</a>
 
-<a href = "javascript:history.back()">Click to go back</a>
 </body>
+<div>
 
-
+</div>
 </html>
